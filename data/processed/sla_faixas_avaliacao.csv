@@ -1,0 +1,6 @@
+ordem_faixa_sla,faixa_sla,qtd_pedidos,pct_volume,nota_media,pct_detratores_nota_1_2,pct_promotores_nota_5,tempo_medio_entrega_dias,gmv_faixa
+1,Antecipado,88163,92.01,4.29,9.2,62.4,10.9,11984402.79
+2,No prazo,1280,1.34,4.04,12.3,50.6,19.2,170975.11
+3,Atraso 1-3 dias,1852,1.93,3.29,32.2,33.2,23.3,248584.17
+4,Atraso 4-7 dias,1748,1.82,2.11,67.6,14.1,28.2,269934.76
+5,Atraso > 7 dias,2781,2.9,1.7,79.2,7.0,44.3,434847.62

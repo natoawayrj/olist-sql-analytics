@@ -1,0 +1,2102 @@
+window.OLIST_DATA = {
+  "resumo_recompra": {
+    "clientes_unicos": 93358,
+    "clientes_compra_unica": 90557,
+    "clientes_recompra": 2801,
+    "pct_recompra": 3.0,
+    "clientes_recompra_dias_distintos": 1949,
+    "pct_recompra_dias_distintos": 2.09,
+    "media_dias_ate_2a_compra": 116.7,
+    "gmv_total_entregue": 13221498.11
+  },
+  "pareto_sellers": {
+    "total_sellers_ativos": 2970,
+    "sellers_ate_80pct_receita": 532,
+    "pct_sellers_concentram_80pct": 17.9,
+    "receita_total_itens": 13221498.11,
+    "pct_receita_nos_top_20pct_sellers": 82.3
+  },
+  "sla_faixas": [
+    {
+      "ordem_faixa_sla": 1,
+      "faixa_sla": "Antecipado",
+      "qtd_pedidos": 88163,
+      "pct_volume": 92.01,
+      "nota_media": 4.29,
+      "pct_detratores_nota_1_2": 9.2,
+      "pct_promotores_nota_5": 62.4,
+      "tempo_medio_entrega_dias": 10.9,
+      "gmv_faixa": 11984402.79
+    },
+    {
+      "ordem_faixa_sla": 2,
+      "faixa_sla": "No prazo",
+      "qtd_pedidos": 1280,
+      "pct_volume": 1.34,
+      "nota_media": 4.04,
+      "pct_detratores_nota_1_2": 12.3,
+      "pct_promotores_nota_5": 50.6,
+      "tempo_medio_entrega_dias": 19.2,
+      "gmv_faixa": 170975.11
+    },
+    {
+      "ordem_faixa_sla": 3,
+      "faixa_sla": "Atraso 1-3 dias",
+      "qtd_pedidos": 1852,
+      "pct_volume": 1.93,
+      "nota_media": 3.29,
+      "pct_detratores_nota_1_2": 32.2,
+      "pct_promotores_nota_5": 33.2,
+      "tempo_medio_entrega_dias": 23.3,
+      "gmv_faixa": 248584.17
+    },
+    {
+      "ordem_faixa_sla": 4,
+      "faixa_sla": "Atraso 4-7 dias",
+      "qtd_pedidos": 1748,
+      "pct_volume": 1.82,
+      "nota_media": 2.11,
+      "pct_detratores_nota_1_2": 67.6,
+      "pct_promotores_nota_5": 14.1,
+      "tempo_medio_entrega_dias": 28.2,
+      "gmv_faixa": 269934.76
+    },
+    {
+      "ordem_faixa_sla": 5,
+      "faixa_sla": "Atraso > 7 dias",
+      "qtd_pedidos": 2781,
+      "pct_volume": 2.9,
+      "nota_media": 1.7,
+      "pct_detratores_nota_1_2": 79.2,
+      "pct_promotores_nota_5": 7.0,
+      "tempo_medio_entrega_dias": 44.3,
+      "gmv_faixa": 434847.62
+    }
+  ],
+  "sla_por_uf": [
+    {
+      "uf": "AL",
+      "qtd_pedidos": 394,
+      "pct_atraso": 20.8,
+      "nota_media": 3.85,
+      "pct_detratores": 21.1,
+      "tempo_medio_entrega_dias": 24.5,
+      "frete_medio": 38.58,
+      "receita_itens": 77408.93,
+      "rank_atraso": 1,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "MA",
+      "qtd_pedidos": 712,
+      "pct_atraso": 17.1,
+      "nota_media": 3.83,
+      "pct_detratores": 19.9,
+      "tempo_medio_entrega_dias": 21.4,
+      "frete_medio": 42.95,
+      "receita_itens": 116330.76,
+      "rank_atraso": 2,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "SE",
+      "qtd_pedidos": 334,
+      "pct_atraso": 15.0,
+      "nota_media": 3.91,
+      "pct_detratores": 18.9,
+      "tempo_medio_entrega_dias": 21.4,
+      "frete_medio": 40.32,
+      "receita_itens": 55674.39,
+      "rank_atraso": 3,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "PI",
+      "qtd_pedidos": 471,
+      "pct_atraso": 13.8,
+      "nota_media": 3.99,
+      "pct_detratores": 16.1,
+      "tempo_medio_entrega_dias": 19.5,
+      "frete_medio": 43.05,
+      "receita_itens": 83941.31,
+      "rank_atraso": 4,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "CE",
+      "qtd_pedidos": 1273,
+      "pct_atraso": 13.7,
+      "nota_media": 3.94,
+      "pct_detratores": 17.1,
+      "tempo_medio_entrega_dias": 21.2,
+      "frete_medio": 36.52,
+      "receita_itens": 218772.33,
+      "rank_atraso": 5,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "RR",
+      "qtd_pedidos": 41,
+      "pct_atraso": 12.2,
+      "nota_media": 3.9,
+      "pct_detratores": 14.6,
+      "tempo_medio_entrega_dias": 29.4,
+      "frete_medio": 48.34,
+      "receita_itens": 7057.47,
+      "rank_atraso": 6,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "RJ",
+      "qtd_pedidos": 12211,
+      "pct_atraso": 11.9,
+      "nota_media": 3.97,
+      "pct_detratores": 18.3,
+      "tempo_medio_entrega_dias": 15.2,
+      "frete_medio": 23.92,
+      "receita_itens": 1734267.28,
+      "rank_atraso": 7,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "BA",
+      "qtd_pedidos": 3229,
+      "pct_atraso": 11.9,
+      "nota_media": 3.93,
+      "pct_detratores": 17.0,
+      "tempo_medio_entrega_dias": 19.2,
+      "frete_medio": 29.97,
+      "receita_itens": 490190.04,
+      "rank_atraso": 7,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "PA",
+      "qtd_pedidos": 933,
+      "pct_atraso": 10.7,
+      "nota_media": 3.91,
+      "pct_detratores": 17.9,
+      "tempo_medio_entrega_dias": 23.6,
+      "frete_medio": 39.48,
+      "receita_itens": 170965.92,
+      "rank_atraso": 9,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "ES",
+      "qtd_pedidos": 1969,
+      "pct_atraso": 10.4,
+      "nota_media": 4.08,
+      "pct_detratores": 13.8,
+      "tempo_medio_entrega_dias": 15.6,
+      "frete_medio": 24.46,
+      "receita_itens": 257243.29,
+      "rank_atraso": 10,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "PB",
+      "qtd_pedidos": 512,
+      "pct_atraso": 10.2,
+      "nota_media": 4.08,
+      "pct_detratores": 14.8,
+      "tempo_medio_entrega_dias": 20.2,
+      "frete_medio": 48.95,
+      "receita_itens": 110880.02,
+      "rank_atraso": 11,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "TO",
+      "qtd_pedidos": 273,
+      "pct_atraso": 9.9,
+      "nota_media": 4.15,
+      "pct_detratores": 12.1,
+      "tempo_medio_entrega_dias": 17.7,
+      "frete_medio": 42.44,
+      "receita_itens": 48332.61,
+      "rank_atraso": 12,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "MS",
+      "qtd_pedidos": 699,
+      "pct_atraso": 9.7,
+      "nota_media": 4.16,
+      "pct_detratores": 13.3,
+      "tempo_medio_entrega_dias": 15.6,
+      "frete_medio": 27.0,
+      "receita_itens": 115190.17,
+      "rank_atraso": 13,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "PE",
+      "qtd_pedidos": 1579,
+      "pct_atraso": 9.4,
+      "nota_media": 4.08,
+      "pct_detratores": 14.8,
+      "tempo_medio_entrega_dias": 18.4,
+      "frete_medio": 35.89,
+      "receita_itens": 250213.09,
+      "rank_atraso": 14,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "RN",
+      "qtd_pedidos": 471,
+      "pct_atraso": 9.1,
+      "nota_media": 4.15,
+      "pct_detratores": 13.0,
+      "tempo_medio_entrega_dias": 19.3,
+      "frete_medio": 39.18,
+      "receita_itens": 81620.68,
+      "rank_atraso": 15,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "SC",
+      "qtd_pedidos": 3519,
+      "pct_atraso": 8.1,
+      "nota_media": 4.13,
+      "pct_detratores": 13.0,
+      "tempo_medio_entrega_dias": 14.9,
+      "frete_medio": 24.81,
+      "receita_itens": 499142.52,
+      "rank_atraso": 16,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "GO",
+      "qtd_pedidos": 1946,
+      "pct_atraso": 6.4,
+      "nota_media": 4.1,
+      "pct_detratores": 13.1,
+      "tempo_medio_entrega_dias": 15.6,
+      "frete_medio": 26.09,
+      "receita_itens": 279278.93,
+      "rank_atraso": 17,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "RS",
+      "qtd_pedidos": 5326,
+      "pct_atraso": 6.0,
+      "nota_media": 4.19,
+      "pct_detratores": 11.9,
+      "tempo_medio_entrega_dias": 15.3,
+      "frete_medio": 24.81,
+      "receita_itens": 726204.04,
+      "rank_atraso": 18,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "MT",
+      "qtd_pedidos": 879,
+      "pct_atraso": 5.8,
+      "nota_media": 4.15,
+      "pct_detratores": 12.7,
+      "tempo_medio_entrega_dias": 18.0,
+      "frete_medio": 32.71,
+      "receita_itens": 151140.9,
+      "rank_atraso": 19,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "DF",
+      "qtd_pedidos": 2070,
+      "pct_atraso": 5.7,
+      "nota_media": 4.13,
+      "pct_detratores": 13.0,
+      "tempo_medio_entrega_dias": 13.0,
+      "frete_medio": 23.83,
+      "receita_itens": 295433.64,
+      "rank_atraso": 20,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "MG",
+      "qtd_pedidos": 11285,
+      "pct_atraso": 4.5,
+      "nota_media": 4.19,
+      "pct_detratores": 11.7,
+      "tempo_medio_entrega_dias": 12.0,
+      "frete_medio": 23.43,
+      "receita_itens": 1539738.14,
+      "rank_atraso": 21,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "SP",
+      "qtd_pedidos": 40266,
+      "pct_atraso": 4.4,
+      "nota_media": 4.25,
+      "pct_detratores": 10.6,
+      "tempo_medio_entrega_dias": 8.7,
+      "frete_medio": 17.33,
+      "receita_itens": 5038591.15,
+      "rank_atraso": 22,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "PR",
+      "qtd_pedidos": 4900,
+      "pct_atraso": 4.0,
+      "nota_media": 4.24,
+      "pct_detratores": 10.8,
+      "tempo_medio_entrega_dias": 12.0,
+      "frete_medio": 23.52,
+      "receita_itens": 664126.25,
+      "rank_atraso": 23,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "AC",
+      "qtd_pedidos": 80,
+      "pct_atraso": 3.8,
+      "nota_media": 4.09,
+      "pct_detratores": 15.0,
+      "tempo_medio_entrega_dias": 21.0,
+      "frete_medio": 45.55,
+      "receita_itens": 15930.97,
+      "rank_atraso": 24,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "AP",
+      "qtd_pedidos": 66,
+      "pct_atraso": 3.0,
+      "nota_media": 4.24,
+      "pct_detratores": 6.1,
+      "tempo_medio_entrega_dias": 27.1,
+      "frete_medio": 41.55,
+      "receita_itens": 13328.91,
+      "rank_atraso": 25,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "RO",
+      "qtd_pedidos": 242,
+      "pct_atraso": 2.9,
+      "nota_media": 4.17,
+      "pct_detratores": 12.0,
+      "tempo_medio_entrega_dias": 19.4,
+      "frete_medio": 46.54,
+      "receita_itens": 45654.86,
+      "rank_atraso": 26,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    },
+    {
+      "uf": "AM",
+      "qtd_pedidos": 144,
+      "pct_atraso": 2.8,
+      "nota_media": 4.24,
+      "pct_detratores": 13.2,
+      "tempo_medio_entrega_dias": 26.3,
+      "frete_medio": 37.53,
+      "receita_itens": 22085.85,
+      "rank_atraso": 27,
+      "media_nacional_nota": 4.16,
+      "media_nacional_atraso": 6.6
+    }
+  ],
+  "serie_mensal_sla": [
+    {
+      "safra_compra": "2017-01",
+      "qtd_pedidos": 741,
+      "receita_itens": 110660.0,
+      "pct_atraso": 2.8,
+      "nota_media": 4.2,
+      "tempo_medio_entrega_dias": 12.6,
+      "pct_atraso_mes_anterior": NaN
+    },
+    {
+      "safra_compra": "2017-02",
+      "qtd_pedidos": 1643,
+      "receita_itens": 233035.02,
+      "pct_atraso": 2.6,
+      "nota_media": 4.2,
+      "tempo_medio_entrega_dias": 13.0,
+      "pct_atraso_mes_anterior": 2.8
+    },
+    {
+      "safra_compra": "2017-03",
+      "qtd_pedidos": 2527,
+      "receita_itens": 353291.42,
+      "pct_atraso": 4.5,
+      "nota_media": 4.19,
+      "tempo_medio_entrega_dias": 12.9,
+      "pct_atraso_mes_anterior": 2.6
+    },
+    {
+      "safra_compra": "2017-04",
+      "qtd_pedidos": 2290,
+      "receita_itens": 338491.56,
+      "pct_atraso": 6.4,
+      "nota_media": 4.14,
+      "tempo_medio_entrega_dias": 14.8,
+      "pct_atraso_mes_anterior": 4.5
+    },
+    {
+      "safra_compra": "2017-05",
+      "qtd_pedidos": 3517,
+      "receita_itens": 484800.2,
+      "pct_atraso": 2.8,
+      "nota_media": 4.24,
+      "tempo_medio_entrega_dias": 11.3,
+      "pct_atraso_mes_anterior": 6.4
+    },
+    {
+      "safra_compra": "2017-06",
+      "qtd_pedidos": 3111,
+      "receita_itens": 419278.13,
+      "pct_atraso": 3.0,
+      "nota_media": 4.22,
+      "tempo_medio_entrega_dias": 12.0,
+      "pct_atraso_mes_anterior": 2.8
+    },
+    {
+      "safra_compra": "2017-07",
+      "qtd_pedidos": 3842,
+      "receita_itens": 477022.56,
+      "pct_atraso": 2.7,
+      "nota_media": 4.26,
+      "tempo_medio_entrega_dias": 11.5,
+      "pct_atraso_mes_anterior": 3.0
+    },
+    {
+      "safra_compra": "2017-08",
+      "qtd_pedidos": 4165,
+      "receita_itens": 548476.37,
+      "pct_atraso": 2.9,
+      "nota_media": 4.31,
+      "tempo_medio_entrega_dias": 11.1,
+      "pct_atraso_mes_anterior": 2.7
+    },
+    {
+      "safra_compra": "2017-09",
+      "qtd_pedidos": 4118,
+      "receita_itens": 603608.68,
+      "pct_atraso": 4.3,
+      "nota_media": 4.27,
+      "tempo_medio_entrega_dias": 11.8,
+      "pct_atraso_mes_anterior": 2.9
+    },
+    {
+      "safra_compra": "2017-10",
+      "qtd_pedidos": 4446,
+      "receita_itens": 641918.45,
+      "pct_atraso": 4.0,
+      "nota_media": 4.21,
+      "tempo_medio_entrega_dias": 11.8,
+      "pct_atraso_mes_anterior": 4.3
+    },
+    {
+      "safra_compra": "2017-11",
+      "qtd_pedidos": 7237,
+      "receita_itens": 978646.18,
+      "pct_atraso": 12.3,
+      "nota_media": 3.99,
+      "tempo_medio_entrega_dias": 15.1,
+      "pct_atraso_mes_anterior": 4.0
+    },
+    {
+      "safra_compra": "2017-12",
+      "qtd_pedidos": 5461,
+      "receita_itens": 715880.1,
+      "pct_atraso": 7.3,
+      "nota_media": 4.09,
+      "tempo_medio_entrega_dias": 15.3,
+      "pct_atraso_mes_anterior": 12.3
+    },
+    {
+      "safra_compra": "2018-01",
+      "qtd_pedidos": 7013,
+      "receita_itens": 915586.88,
+      "pct_atraso": 5.6,
+      "nota_media": 4.11,
+      "tempo_medio_entrega_dias": 14.0,
+      "pct_atraso_mes_anterior": 7.3
+    },
+    {
+      "safra_compra": "2018-02",
+      "qtd_pedidos": 6507,
+      "receita_itens": 820193.91,
+      "pct_atraso": 14.0,
+      "nota_media": 3.88,
+      "tempo_medio_entrega_dias": 16.9,
+      "pct_atraso_mes_anterior": 5.6
+    },
+    {
+      "safra_compra": "2018-03",
+      "qtd_pedidos": 6948,
+      "receita_itens": 943358.51,
+      "pct_atraso": 18.7,
+      "nota_media": 3.81,
+      "tempo_medio_entrega_dias": 16.2,
+      "pct_atraso_mes_anterior": 14.0
+    },
+    {
+      "safra_compra": "2018-04",
+      "qtd_pedidos": 6752,
+      "receita_itens": 968034.66,
+      "pct_atraso": 4.4,
+      "nota_media": 4.21,
+      "tempo_medio_entrega_dias": 11.5,
+      "pct_atraso_mes_anterior": 18.7
+    },
+    {
+      "safra_compra": "2018-05",
+      "qtd_pedidos": 6722,
+      "receita_itens": 972258.23,
+      "pct_atraso": 6.5,
+      "nota_media": 4.24,
+      "tempo_medio_entrega_dias": 11.4,
+      "pct_atraso_mes_anterior": 4.4
+    },
+    {
+      "safra_compra": "2018-06",
+      "qtd_pedidos": 6072,
+      "receita_itens": 853592.86,
+      "pct_atraso": 1.2,
+      "nota_media": 4.31,
+      "tempo_medio_entrega_dias": 9.2,
+      "pct_atraso_mes_anterior": 6.5
+    },
+    {
+      "safra_compra": "2018-07",
+      "qtd_pedidos": 6118,
+      "receita_itens": 855564.35,
+      "pct_atraso": 3.3,
+      "nota_media": 4.32,
+      "tempo_medio_entrega_dias": 8.9,
+      "pct_atraso_mes_anterior": 1.2
+    },
+    {
+      "safra_compra": "2018-08",
+      "qtd_pedidos": 6330,
+      "receita_itens": 835272.25,
+      "pct_atraso": 6.1,
+      "nota_media": 4.31,
+      "tempo_medio_entrega_dias": 7.7,
+      "pct_atraso_mes_anterior": 3.3
+    }
+  ],
+  "pareto_categorias": [
+    {
+      "ranking_receita": 1,
+      "categoria_raw": "beleza_saude",
+      "qtd_pedidos": 8647,
+      "qtd_itens": 9465,
+      "receita_total": 1233131.72,
+      "preco_medio_item": 130.28,
+      "frete_medio_item": 18.91,
+      "pct_receita": 9.33,
+      "pct_receita_acumulada": 9.33
+    },
+    {
+      "ranking_receita": 2,
+      "categoria_raw": "relogios_presentes",
+      "qtd_pedidos": 5495,
+      "qtd_itens": 5859,
+      "receita_total": 1166176.98,
+      "preco_medio_item": 199.04,
+      "frete_medio_item": 16.75,
+      "pct_receita": 8.82,
+      "pct_receita_acumulada": 18.15
+    },
+    {
+      "ranking_receita": 3,
+      "categoria_raw": "cama_mesa_banho",
+      "qtd_pedidos": 9272,
+      "qtd_itens": 10953,
+      "receita_total": 1023434.76,
+      "preco_medio_item": 93.44,
+      "frete_medio_item": 18.42,
+      "pct_receita": 7.74,
+      "pct_receita_acumulada": 25.89
+    },
+    {
+      "ranking_receita": 4,
+      "categoria_raw": "esporte_lazer",
+      "qtd_pedidos": 7530,
+      "qtd_itens": 8431,
+      "receita_total": 954852.55,
+      "preco_medio_item": 113.25,
+      "frete_medio_item": 19.38,
+      "pct_receita": 7.22,
+      "pct_receita_acumulada": 33.11
+    },
+    {
+      "ranking_receita": 5,
+      "categoria_raw": "informatica_acessorios",
+      "qtd_pedidos": 6530,
+      "qtd_itens": 7644,
+      "receita_total": 888724.61,
+      "preco_medio_item": 116.26,
+      "frete_medio_item": 18.84,
+      "pct_receita": 6.72,
+      "pct_receita_acumulada": 39.83
+    },
+    {
+      "ranking_receita": 6,
+      "categoria_raw": "moveis_decoracao",
+      "qtd_pedidos": 6307,
+      "qtd_itens": 8160,
+      "receita_total": 711927.69,
+      "preco_medio_item": 87.25,
+      "frete_medio_item": 20.64,
+      "pct_receita": 5.38,
+      "pct_receita_acumulada": 45.22
+    },
+    {
+      "ranking_receita": 7,
+      "categoria_raw": "utilidades_domesticas",
+      "qtd_pedidos": 5743,
+      "qtd_itens": 6795,
+      "receita_total": 615628.69,
+      "preco_medio_item": 90.6,
+      "frete_medio_item": 21.01,
+      "pct_receita": 4.66,
+      "pct_receita_acumulada": 49.87
+    },
+    {
+      "ranking_receita": 8,
+      "categoria_raw": "cool_stuff",
+      "qtd_pedidos": 3559,
+      "qtd_itens": 3718,
+      "receita_total": 610204.1,
+      "preco_medio_item": 164.12,
+      "frete_medio_item": 21.91,
+      "pct_receita": 4.62,
+      "pct_receita_acumulada": 54.49
+    },
+    {
+      "ranking_receita": 9,
+      "categoria_raw": "automotivo",
+      "qtd_pedidos": 3810,
+      "qtd_itens": 4140,
+      "receita_total": 578966.65,
+      "preco_medio_item": 139.85,
+      "frete_medio_item": 21.86,
+      "pct_receita": 4.38,
+      "pct_receita_acumulada": 58.87
+    },
+    {
+      "ranking_receita": 10,
+      "categoria_raw": "brinquedos",
+      "qtd_pedidos": 3804,
+      "qtd_itens": 4030,
+      "receita_total": 471286.48,
+      "preco_medio_item": 116.94,
+      "frete_medio_item": 18.8,
+      "pct_receita": 3.56,
+      "pct_receita_acumulada": 62.43
+    },
+    {
+      "ranking_receita": 11,
+      "categoria_raw": "ferramentas_jardim",
+      "qtd_pedidos": 3448,
+      "qtd_itens": 4268,
+      "receita_total": 470495.28,
+      "preco_medio_item": 110.24,
+      "frete_medio_item": 22.65,
+      "pct_receita": 3.56,
+      "pct_receita_acumulada": 65.99
+    },
+    {
+      "ranking_receita": 12,
+      "categoria_raw": "bebes",
+      "qtd_pedidos": 2809,
+      "qtd_itens": 2982,
+      "receita_total": 400421.84,
+      "preco_medio_item": 134.28,
+      "frete_medio_item": 22.24,
+      "pct_receita": 3.03,
+      "pct_receita_acumulada": 69.02
+    },
+    {
+      "ranking_receita": 13,
+      "categoria_raw": "perfumaria",
+      "qtd_pedidos": 3086,
+      "qtd_itens": 3340,
+      "receita_total": 390144.65,
+      "preco_medio_item": 116.81,
+      "frete_medio_item": 15.88,
+      "pct_receita": 2.95,
+      "pct_receita_acumulada": 71.97
+    },
+    {
+      "ranking_receita": 14,
+      "categoria_raw": "telefonia",
+      "qtd_pedidos": 4093,
+      "qtd_itens": 4430,
+      "receita_total": 309860.23,
+      "preco_medio_item": 69.95,
+      "frete_medio_item": 15.65,
+      "pct_receita": 2.34,
+      "pct_receita_acumulada": 74.31
+    },
+    {
+      "ranking_receita": 15,
+      "categoria_raw": "moveis_escritorio",
+      "qtd_pedidos": 1254,
+      "qtd_itens": 1668,
+      "receita_total": 268154.31,
+      "preco_medio_item": 160.76,
+      "frete_medio_item": 40.2,
+      "pct_receita": 2.03,
+      "pct_receita_acumulada": 76.34
+    },
+    {
+      "ranking_receita": 16,
+      "categoria_raw": "papelaria",
+      "qtd_pedidos": 2264,
+      "qtd_itens": 2466,
+      "receita_total": 223788.69,
+      "preco_medio_item": 90.75,
+      "frete_medio_item": 18.57,
+      "pct_receita": 1.69,
+      "pct_receita_acumulada": 78.03
+    },
+    {
+      "ranking_receita": 17,
+      "categoria_raw": "pcs",
+      "qtd_pedidos": 177,
+      "qtd_itens": 199,
+      "receita_total": 218684.14,
+      "preco_medio_item": 1098.92,
+      "frete_medio_item": 48.57,
+      "pct_receita": 1.65,
+      "pct_receita_acumulada": 79.69
+    },
+    {
+      "ranking_receita": 18,
+      "categoria_raw": "pet_shop",
+      "qtd_pedidos": 1688,
+      "qtd_itens": 1924,
+      "receita_total": 211695.64,
+      "preco_medio_item": 110.03,
+      "frete_medio_item": 20.23,
+      "pct_receita": 1.6,
+      "pct_receita_acumulada": 81.29
+    },
+    {
+      "ranking_receita": 19,
+      "categoria_raw": "instrumentos_musicais",
+      "qtd_pedidos": 611,
+      "qtd_itens": 651,
+      "receita_total": 184315.74,
+      "preco_medio_item": 283.13,
+      "frete_medio_item": 27.45,
+      "pct_receita": 1.39,
+      "pct_receita_acumulada": 82.68
+    },
+    {
+      "ranking_receita": 20,
+      "categoria_raw": "eletroportateis",
+      "qtd_pedidos": 609,
+      "qtd_itens": 658,
+      "receita_total": 182754.12,
+      "preco_medio_item": 277.74,
+      "frete_medio_item": 23.33,
+      "pct_receita": 1.38,
+      "pct_receita_acumulada": 84.06
+    }
+  ],
+  "coorte_mensal": [
+    {
+      "safra_inicial": "2017-01",
+      "mes_indice": 0,
+      "clientes_ativos": 718,
+      "tamanho_coorte": 718,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2017-01",
+      "mes_indice": 1,
+      "clientes_ativos": 2,
+      "tamanho_coorte": 718,
+      "pct_retencao": 0.28
+    },
+    {
+      "safra_inicial": "2017-01",
+      "mes_indice": 2,
+      "clientes_ativos": 2,
+      "tamanho_coorte": 718,
+      "pct_retencao": 0.28
+    },
+    {
+      "safra_inicial": "2017-01",
+      "mes_indice": 3,
+      "clientes_ativos": 1,
+      "tamanho_coorte": 718,
+      "pct_retencao": 0.14
+    },
+    {
+      "safra_inicial": "2017-01",
+      "mes_indice": 4,
+      "clientes_ativos": 3,
+      "tamanho_coorte": 718,
+      "pct_retencao": 0.42
+    },
+    {
+      "safra_inicial": "2017-01",
+      "mes_indice": 5,
+      "clientes_ativos": 1,
+      "tamanho_coorte": 718,
+      "pct_retencao": 0.14
+    },
+    {
+      "safra_inicial": "2017-01",
+      "mes_indice": 6,
+      "clientes_ativos": 3,
+      "tamanho_coorte": 718,
+      "pct_retencao": 0.42
+    },
+    {
+      "safra_inicial": "2017-01",
+      "mes_indice": 7,
+      "clientes_ativos": 1,
+      "tamanho_coorte": 718,
+      "pct_retencao": 0.14
+    },
+    {
+      "safra_inicial": "2017-01",
+      "mes_indice": 8,
+      "clientes_ativos": 1,
+      "tamanho_coorte": 718,
+      "pct_retencao": 0.14
+    },
+    {
+      "safra_inicial": "2017-01",
+      "mes_indice": 10,
+      "clientes_ativos": 3,
+      "tamanho_coorte": 718,
+      "pct_retencao": 0.42
+    },
+    {
+      "safra_inicial": "2017-01",
+      "mes_indice": 11,
+      "clientes_ativos": 1,
+      "tamanho_coorte": 718,
+      "pct_retencao": 0.14
+    },
+    {
+      "safra_inicial": "2017-01",
+      "mes_indice": 12,
+      "clientes_ativos": 5,
+      "tamanho_coorte": 718,
+      "pct_retencao": 0.7
+    },
+    {
+      "safra_inicial": "2017-02",
+      "mes_indice": 0,
+      "clientes_ativos": 1628,
+      "tamanho_coorte": 1628,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2017-02",
+      "mes_indice": 1,
+      "clientes_ativos": 3,
+      "tamanho_coorte": 1628,
+      "pct_retencao": 0.18
+    },
+    {
+      "safra_inicial": "2017-02",
+      "mes_indice": 2,
+      "clientes_ativos": 5,
+      "tamanho_coorte": 1628,
+      "pct_retencao": 0.31
+    },
+    {
+      "safra_inicial": "2017-02",
+      "mes_indice": 3,
+      "clientes_ativos": 2,
+      "tamanho_coorte": 1628,
+      "pct_retencao": 0.12
+    },
+    {
+      "safra_inicial": "2017-02",
+      "mes_indice": 4,
+      "clientes_ativos": 7,
+      "tamanho_coorte": 1628,
+      "pct_retencao": 0.43
+    },
+    {
+      "safra_inicial": "2017-02",
+      "mes_indice": 5,
+      "clientes_ativos": 2,
+      "tamanho_coorte": 1628,
+      "pct_retencao": 0.12
+    },
+    {
+      "safra_inicial": "2017-02",
+      "mes_indice": 6,
+      "clientes_ativos": 4,
+      "tamanho_coorte": 1628,
+      "pct_retencao": 0.25
+    },
+    {
+      "safra_inicial": "2017-02",
+      "mes_indice": 7,
+      "clientes_ativos": 3,
+      "tamanho_coorte": 1628,
+      "pct_retencao": 0.18
+    },
+    {
+      "safra_inicial": "2017-02",
+      "mes_indice": 8,
+      "clientes_ativos": 2,
+      "tamanho_coorte": 1628,
+      "pct_retencao": 0.12
+    },
+    {
+      "safra_inicial": "2017-02",
+      "mes_indice": 9,
+      "clientes_ativos": 3,
+      "tamanho_coorte": 1628,
+      "pct_retencao": 0.18
+    },
+    {
+      "safra_inicial": "2017-02",
+      "mes_indice": 10,
+      "clientes_ativos": 2,
+      "tamanho_coorte": 1628,
+      "pct_retencao": 0.12
+    },
+    {
+      "safra_inicial": "2017-02",
+      "mes_indice": 11,
+      "clientes_ativos": 5,
+      "tamanho_coorte": 1628,
+      "pct_retencao": 0.31
+    },
+    {
+      "safra_inicial": "2017-02",
+      "mes_indice": 12,
+      "clientes_ativos": 2,
+      "tamanho_coorte": 1628,
+      "pct_retencao": 0.12
+    },
+    {
+      "safra_inicial": "2017-03",
+      "mes_indice": 0,
+      "clientes_ativos": 2503,
+      "tamanho_coorte": 2503,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2017-03",
+      "mes_indice": 1,
+      "clientes_ativos": 11,
+      "tamanho_coorte": 2503,
+      "pct_retencao": 0.44
+    },
+    {
+      "safra_inicial": "2017-03",
+      "mes_indice": 2,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 2503,
+      "pct_retencao": 0.36
+    },
+    {
+      "safra_inicial": "2017-03",
+      "mes_indice": 3,
+      "clientes_ativos": 10,
+      "tamanho_coorte": 2503,
+      "pct_retencao": 0.4
+    },
+    {
+      "safra_inicial": "2017-03",
+      "mes_indice": 4,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 2503,
+      "pct_retencao": 0.36
+    },
+    {
+      "safra_inicial": "2017-03",
+      "mes_indice": 5,
+      "clientes_ativos": 4,
+      "tamanho_coorte": 2503,
+      "pct_retencao": 0.16
+    },
+    {
+      "safra_inicial": "2017-03",
+      "mes_indice": 6,
+      "clientes_ativos": 4,
+      "tamanho_coorte": 2503,
+      "pct_retencao": 0.16
+    },
+    {
+      "safra_inicial": "2017-03",
+      "mes_indice": 7,
+      "clientes_ativos": 8,
+      "tamanho_coorte": 2503,
+      "pct_retencao": 0.32
+    },
+    {
+      "safra_inicial": "2017-03",
+      "mes_indice": 8,
+      "clientes_ativos": 8,
+      "tamanho_coorte": 2503,
+      "pct_retencao": 0.32
+    },
+    {
+      "safra_inicial": "2017-03",
+      "mes_indice": 9,
+      "clientes_ativos": 2,
+      "tamanho_coorte": 2503,
+      "pct_retencao": 0.08
+    },
+    {
+      "safra_inicial": "2017-03",
+      "mes_indice": 10,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 2503,
+      "pct_retencao": 0.36
+    },
+    {
+      "safra_inicial": "2017-03",
+      "mes_indice": 11,
+      "clientes_ativos": 3,
+      "tamanho_coorte": 2503,
+      "pct_retencao": 0.12
+    },
+    {
+      "safra_inicial": "2017-03",
+      "mes_indice": 12,
+      "clientes_ativos": 5,
+      "tamanho_coorte": 2503,
+      "pct_retencao": 0.2
+    },
+    {
+      "safra_inicial": "2017-04",
+      "mes_indice": 0,
+      "clientes_ativos": 2257,
+      "tamanho_coorte": 2257,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2017-04",
+      "mes_indice": 1,
+      "clientes_ativos": 14,
+      "tamanho_coorte": 2257,
+      "pct_retencao": 0.62
+    },
+    {
+      "safra_inicial": "2017-04",
+      "mes_indice": 2,
+      "clientes_ativos": 5,
+      "tamanho_coorte": 2257,
+      "pct_retencao": 0.22
+    },
+    {
+      "safra_inicial": "2017-04",
+      "mes_indice": 3,
+      "clientes_ativos": 4,
+      "tamanho_coorte": 2257,
+      "pct_retencao": 0.18
+    },
+    {
+      "safra_inicial": "2017-04",
+      "mes_indice": 4,
+      "clientes_ativos": 6,
+      "tamanho_coorte": 2257,
+      "pct_retencao": 0.27
+    },
+    {
+      "safra_inicial": "2017-04",
+      "mes_indice": 5,
+      "clientes_ativos": 6,
+      "tamanho_coorte": 2257,
+      "pct_retencao": 0.27
+    },
+    {
+      "safra_inicial": "2017-04",
+      "mes_indice": 6,
+      "clientes_ativos": 8,
+      "tamanho_coorte": 2257,
+      "pct_retencao": 0.35
+    },
+    {
+      "safra_inicial": "2017-04",
+      "mes_indice": 7,
+      "clientes_ativos": 7,
+      "tamanho_coorte": 2257,
+      "pct_retencao": 0.31
+    },
+    {
+      "safra_inicial": "2017-04",
+      "mes_indice": 8,
+      "clientes_ativos": 7,
+      "tamanho_coorte": 2257,
+      "pct_retencao": 0.31
+    },
+    {
+      "safra_inicial": "2017-04",
+      "mes_indice": 9,
+      "clientes_ativos": 4,
+      "tamanho_coorte": 2257,
+      "pct_retencao": 0.18
+    },
+    {
+      "safra_inicial": "2017-04",
+      "mes_indice": 10,
+      "clientes_ativos": 6,
+      "tamanho_coorte": 2257,
+      "pct_retencao": 0.27
+    },
+    {
+      "safra_inicial": "2017-04",
+      "mes_indice": 11,
+      "clientes_ativos": 2,
+      "tamanho_coorte": 2257,
+      "pct_retencao": 0.09
+    },
+    {
+      "safra_inicial": "2017-04",
+      "mes_indice": 12,
+      "clientes_ativos": 1,
+      "tamanho_coorte": 2257,
+      "pct_retencao": 0.04
+    },
+    {
+      "safra_inicial": "2017-05",
+      "mes_indice": 0,
+      "clientes_ativos": 3451,
+      "tamanho_coorte": 3451,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2017-05",
+      "mes_indice": 1,
+      "clientes_ativos": 16,
+      "tamanho_coorte": 3451,
+      "pct_retencao": 0.46
+    },
+    {
+      "safra_inicial": "2017-05",
+      "mes_indice": 2,
+      "clientes_ativos": 16,
+      "tamanho_coorte": 3451,
+      "pct_retencao": 0.46
+    },
+    {
+      "safra_inicial": "2017-05",
+      "mes_indice": 3,
+      "clientes_ativos": 10,
+      "tamanho_coorte": 3451,
+      "pct_retencao": 0.29
+    },
+    {
+      "safra_inicial": "2017-05",
+      "mes_indice": 4,
+      "clientes_ativos": 10,
+      "tamanho_coorte": 3451,
+      "pct_retencao": 0.29
+    },
+    {
+      "safra_inicial": "2017-05",
+      "mes_indice": 5,
+      "clientes_ativos": 11,
+      "tamanho_coorte": 3451,
+      "pct_retencao": 0.32
+    },
+    {
+      "safra_inicial": "2017-05",
+      "mes_indice": 6,
+      "clientes_ativos": 14,
+      "tamanho_coorte": 3451,
+      "pct_retencao": 0.41
+    },
+    {
+      "safra_inicial": "2017-05",
+      "mes_indice": 7,
+      "clientes_ativos": 5,
+      "tamanho_coorte": 3451,
+      "pct_retencao": 0.14
+    },
+    {
+      "safra_inicial": "2017-05",
+      "mes_indice": 8,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 3451,
+      "pct_retencao": 0.26
+    },
+    {
+      "safra_inicial": "2017-05",
+      "mes_indice": 9,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 3451,
+      "pct_retencao": 0.26
+    },
+    {
+      "safra_inicial": "2017-05",
+      "mes_indice": 10,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 3451,
+      "pct_retencao": 0.26
+    },
+    {
+      "safra_inicial": "2017-05",
+      "mes_indice": 11,
+      "clientes_ativos": 12,
+      "tamanho_coorte": 3451,
+      "pct_retencao": 0.35
+    },
+    {
+      "safra_inicial": "2017-05",
+      "mes_indice": 12,
+      "clientes_ativos": 8,
+      "tamanho_coorte": 3451,
+      "pct_retencao": 0.23
+    },
+    {
+      "safra_inicial": "2017-06",
+      "mes_indice": 0,
+      "clientes_ativos": 3037,
+      "tamanho_coorte": 3037,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2017-06",
+      "mes_indice": 1,
+      "clientes_ativos": 15,
+      "tamanho_coorte": 3037,
+      "pct_retencao": 0.49
+    },
+    {
+      "safra_inicial": "2017-06",
+      "mes_indice": 2,
+      "clientes_ativos": 12,
+      "tamanho_coorte": 3037,
+      "pct_retencao": 0.4
+    },
+    {
+      "safra_inicial": "2017-06",
+      "mes_indice": 3,
+      "clientes_ativos": 13,
+      "tamanho_coorte": 3037,
+      "pct_retencao": 0.43
+    },
+    {
+      "safra_inicial": "2017-06",
+      "mes_indice": 4,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 3037,
+      "pct_retencao": 0.3
+    },
+    {
+      "safra_inicial": "2017-06",
+      "mes_indice": 5,
+      "clientes_ativos": 12,
+      "tamanho_coorte": 3037,
+      "pct_retencao": 0.4
+    },
+    {
+      "safra_inicial": "2017-06",
+      "mes_indice": 6,
+      "clientes_ativos": 11,
+      "tamanho_coorte": 3037,
+      "pct_retencao": 0.36
+    },
+    {
+      "safra_inicial": "2017-06",
+      "mes_indice": 7,
+      "clientes_ativos": 7,
+      "tamanho_coorte": 3037,
+      "pct_retencao": 0.23
+    },
+    {
+      "safra_inicial": "2017-06",
+      "mes_indice": 8,
+      "clientes_ativos": 4,
+      "tamanho_coorte": 3037,
+      "pct_retencao": 0.13
+    },
+    {
+      "safra_inicial": "2017-06",
+      "mes_indice": 9,
+      "clientes_ativos": 6,
+      "tamanho_coorte": 3037,
+      "pct_retencao": 0.2
+    },
+    {
+      "safra_inicial": "2017-06",
+      "mes_indice": 10,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 3037,
+      "pct_retencao": 0.3
+    },
+    {
+      "safra_inicial": "2017-06",
+      "mes_indice": 11,
+      "clientes_ativos": 11,
+      "tamanho_coorte": 3037,
+      "pct_retencao": 0.36
+    },
+    {
+      "safra_inicial": "2017-06",
+      "mes_indice": 12,
+      "clientes_ativos": 5,
+      "tamanho_coorte": 3037,
+      "pct_retencao": 0.16
+    },
+    {
+      "safra_inicial": "2017-07",
+      "mes_indice": 0,
+      "clientes_ativos": 3753,
+      "tamanho_coorte": 3753,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2017-07",
+      "mes_indice": 1,
+      "clientes_ativos": 20,
+      "tamanho_coorte": 3753,
+      "pct_retencao": 0.53
+    },
+    {
+      "safra_inicial": "2017-07",
+      "mes_indice": 2,
+      "clientes_ativos": 13,
+      "tamanho_coorte": 3753,
+      "pct_retencao": 0.35
+    },
+    {
+      "safra_inicial": "2017-07",
+      "mes_indice": 3,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 3753,
+      "pct_retencao": 0.24
+    },
+    {
+      "safra_inicial": "2017-07",
+      "mes_indice": 4,
+      "clientes_ativos": 11,
+      "tamanho_coorte": 3753,
+      "pct_retencao": 0.29
+    },
+    {
+      "safra_inicial": "2017-07",
+      "mes_indice": 5,
+      "clientes_ativos": 8,
+      "tamanho_coorte": 3753,
+      "pct_retencao": 0.21
+    },
+    {
+      "safra_inicial": "2017-07",
+      "mes_indice": 6,
+      "clientes_ativos": 12,
+      "tamanho_coorte": 3753,
+      "pct_retencao": 0.32
+    },
+    {
+      "safra_inicial": "2017-07",
+      "mes_indice": 7,
+      "clientes_ativos": 4,
+      "tamanho_coorte": 3753,
+      "pct_retencao": 0.11
+    },
+    {
+      "safra_inicial": "2017-07",
+      "mes_indice": 8,
+      "clientes_ativos": 7,
+      "tamanho_coorte": 3753,
+      "pct_retencao": 0.19
+    },
+    {
+      "safra_inicial": "2017-07",
+      "mes_indice": 9,
+      "clientes_ativos": 10,
+      "tamanho_coorte": 3753,
+      "pct_retencao": 0.27
+    },
+    {
+      "safra_inicial": "2017-07",
+      "mes_indice": 10,
+      "clientes_ativos": 8,
+      "tamanho_coorte": 3753,
+      "pct_retencao": 0.21
+    },
+    {
+      "safra_inicial": "2017-07",
+      "mes_indice": 11,
+      "clientes_ativos": 11,
+      "tamanho_coorte": 3753,
+      "pct_retencao": 0.29
+    },
+    {
+      "safra_inicial": "2017-07",
+      "mes_indice": 12,
+      "clientes_ativos": 5,
+      "tamanho_coorte": 3753,
+      "pct_retencao": 0.13
+    },
+    {
+      "safra_inicial": "2017-08",
+      "mes_indice": 0,
+      "clientes_ativos": 4057,
+      "tamanho_coorte": 4057,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2017-08",
+      "mes_indice": 1,
+      "clientes_ativos": 28,
+      "tamanho_coorte": 4057,
+      "pct_retencao": 0.69
+    },
+    {
+      "safra_inicial": "2017-08",
+      "mes_indice": 2,
+      "clientes_ativos": 14,
+      "tamanho_coorte": 4057,
+      "pct_retencao": 0.35
+    },
+    {
+      "safra_inicial": "2017-08",
+      "mes_indice": 3,
+      "clientes_ativos": 11,
+      "tamanho_coorte": 4057,
+      "pct_retencao": 0.27
+    },
+    {
+      "safra_inicial": "2017-08",
+      "mes_indice": 4,
+      "clientes_ativos": 14,
+      "tamanho_coorte": 4057,
+      "pct_retencao": 0.35
+    },
+    {
+      "safra_inicial": "2017-08",
+      "mes_indice": 5,
+      "clientes_ativos": 21,
+      "tamanho_coorte": 4057,
+      "pct_retencao": 0.52
+    },
+    {
+      "safra_inicial": "2017-08",
+      "mes_indice": 6,
+      "clientes_ativos": 12,
+      "tamanho_coorte": 4057,
+      "pct_retencao": 0.3
+    },
+    {
+      "safra_inicial": "2017-08",
+      "mes_indice": 7,
+      "clientes_ativos": 11,
+      "tamanho_coorte": 4057,
+      "pct_retencao": 0.27
+    },
+    {
+      "safra_inicial": "2017-08",
+      "mes_indice": 8,
+      "clientes_ativos": 6,
+      "tamanho_coorte": 4057,
+      "pct_retencao": 0.15
+    },
+    {
+      "safra_inicial": "2017-08",
+      "mes_indice": 9,
+      "clientes_ativos": 6,
+      "tamanho_coorte": 4057,
+      "pct_retencao": 0.15
+    },
+    {
+      "safra_inicial": "2017-08",
+      "mes_indice": 10,
+      "clientes_ativos": 10,
+      "tamanho_coorte": 4057,
+      "pct_retencao": 0.25
+    },
+    {
+      "safra_inicial": "2017-08",
+      "mes_indice": 11,
+      "clientes_ativos": 8,
+      "tamanho_coorte": 4057,
+      "pct_retencao": 0.2
+    },
+    {
+      "safra_inicial": "2017-08",
+      "mes_indice": 12,
+      "clientes_ativos": 5,
+      "tamanho_coorte": 4057,
+      "pct_retencao": 0.12
+    },
+    {
+      "safra_inicial": "2017-09",
+      "mes_indice": 0,
+      "clientes_ativos": 4005,
+      "tamanho_coorte": 4005,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2017-09",
+      "mes_indice": 1,
+      "clientes_ativos": 28,
+      "tamanho_coorte": 4005,
+      "pct_retencao": 0.7
+    },
+    {
+      "safra_inicial": "2017-09",
+      "mes_indice": 2,
+      "clientes_ativos": 22,
+      "tamanho_coorte": 4005,
+      "pct_retencao": 0.55
+    },
+    {
+      "safra_inicial": "2017-09",
+      "mes_indice": 3,
+      "clientes_ativos": 11,
+      "tamanho_coorte": 4005,
+      "pct_retencao": 0.27
+    },
+    {
+      "safra_inicial": "2017-09",
+      "mes_indice": 4,
+      "clientes_ativos": 18,
+      "tamanho_coorte": 4005,
+      "pct_retencao": 0.45
+    },
+    {
+      "safra_inicial": "2017-09",
+      "mes_indice": 5,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 4005,
+      "pct_retencao": 0.22
+    },
+    {
+      "safra_inicial": "2017-09",
+      "mes_indice": 6,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 4005,
+      "pct_retencao": 0.22
+    },
+    {
+      "safra_inicial": "2017-09",
+      "mes_indice": 7,
+      "clientes_ativos": 10,
+      "tamanho_coorte": 4005,
+      "pct_retencao": 0.25
+    },
+    {
+      "safra_inicial": "2017-09",
+      "mes_indice": 8,
+      "clientes_ativos": 11,
+      "tamanho_coorte": 4005,
+      "pct_retencao": 0.27
+    },
+    {
+      "safra_inicial": "2017-09",
+      "mes_indice": 9,
+      "clientes_ativos": 8,
+      "tamanho_coorte": 4005,
+      "pct_retencao": 0.2
+    },
+    {
+      "safra_inicial": "2017-09",
+      "mes_indice": 10,
+      "clientes_ativos": 10,
+      "tamanho_coorte": 4005,
+      "pct_retencao": 0.25
+    },
+    {
+      "safra_inicial": "2017-09",
+      "mes_indice": 11,
+      "clientes_ativos": 3,
+      "tamanho_coorte": 4005,
+      "pct_retencao": 0.07
+    },
+    {
+      "safra_inicial": "2017-10",
+      "mes_indice": 0,
+      "clientes_ativos": 4328,
+      "tamanho_coorte": 4328,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2017-10",
+      "mes_indice": 1,
+      "clientes_ativos": 31,
+      "tamanho_coorte": 4328,
+      "pct_retencao": 0.72
+    },
+    {
+      "safra_inicial": "2017-10",
+      "mes_indice": 2,
+      "clientes_ativos": 11,
+      "tamanho_coorte": 4328,
+      "pct_retencao": 0.25
+    },
+    {
+      "safra_inicial": "2017-10",
+      "mes_indice": 3,
+      "clientes_ativos": 4,
+      "tamanho_coorte": 4328,
+      "pct_retencao": 0.09
+    },
+    {
+      "safra_inicial": "2017-10",
+      "mes_indice": 4,
+      "clientes_ativos": 10,
+      "tamanho_coorte": 4328,
+      "pct_retencao": 0.23
+    },
+    {
+      "safra_inicial": "2017-10",
+      "mes_indice": 5,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 4328,
+      "pct_retencao": 0.21
+    },
+    {
+      "safra_inicial": "2017-10",
+      "mes_indice": 6,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 4328,
+      "pct_retencao": 0.21
+    },
+    {
+      "safra_inicial": "2017-10",
+      "mes_indice": 7,
+      "clientes_ativos": 16,
+      "tamanho_coorte": 4328,
+      "pct_retencao": 0.37
+    },
+    {
+      "safra_inicial": "2017-10",
+      "mes_indice": 8,
+      "clientes_ativos": 12,
+      "tamanho_coorte": 4328,
+      "pct_retencao": 0.28
+    },
+    {
+      "safra_inicial": "2017-10",
+      "mes_indice": 9,
+      "clientes_ativos": 8,
+      "tamanho_coorte": 4328,
+      "pct_retencao": 0.18
+    },
+    {
+      "safra_inicial": "2017-10",
+      "mes_indice": 10,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 4328,
+      "pct_retencao": 0.21
+    },
+    {
+      "safra_inicial": "2017-11",
+      "mes_indice": 0,
+      "clientes_ativos": 7061,
+      "tamanho_coorte": 7061,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2017-11",
+      "mes_indice": 1,
+      "clientes_ativos": 40,
+      "tamanho_coorte": 7061,
+      "pct_retencao": 0.57
+    },
+    {
+      "safra_inicial": "2017-11",
+      "mes_indice": 2,
+      "clientes_ativos": 26,
+      "tamanho_coorte": 7061,
+      "pct_retencao": 0.37
+    },
+    {
+      "safra_inicial": "2017-11",
+      "mes_indice": 3,
+      "clientes_ativos": 12,
+      "tamanho_coorte": 7061,
+      "pct_retencao": 0.17
+    },
+    {
+      "safra_inicial": "2017-11",
+      "mes_indice": 4,
+      "clientes_ativos": 12,
+      "tamanho_coorte": 7061,
+      "pct_retencao": 0.17
+    },
+    {
+      "safra_inicial": "2017-11",
+      "mes_indice": 5,
+      "clientes_ativos": 13,
+      "tamanho_coorte": 7061,
+      "pct_retencao": 0.18
+    },
+    {
+      "safra_inicial": "2017-11",
+      "mes_indice": 6,
+      "clientes_ativos": 8,
+      "tamanho_coorte": 7061,
+      "pct_retencao": 0.11
+    },
+    {
+      "safra_inicial": "2017-11",
+      "mes_indice": 7,
+      "clientes_ativos": 13,
+      "tamanho_coorte": 7061,
+      "pct_retencao": 0.18
+    },
+    {
+      "safra_inicial": "2017-11",
+      "mes_indice": 8,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 7061,
+      "pct_retencao": 0.13
+    },
+    {
+      "safra_inicial": "2017-11",
+      "mes_indice": 9,
+      "clientes_ativos": 4,
+      "tamanho_coorte": 7061,
+      "pct_retencao": 0.06
+    },
+    {
+      "safra_inicial": "2017-12",
+      "mes_indice": 0,
+      "clientes_ativos": 5338,
+      "tamanho_coorte": 5338,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2017-12",
+      "mes_indice": 1,
+      "clientes_ativos": 11,
+      "tamanho_coorte": 5338,
+      "pct_retencao": 0.21
+    },
+    {
+      "safra_inicial": "2017-12",
+      "mes_indice": 2,
+      "clientes_ativos": 15,
+      "tamanho_coorte": 5338,
+      "pct_retencao": 0.28
+    },
+    {
+      "safra_inicial": "2017-12",
+      "mes_indice": 3,
+      "clientes_ativos": 18,
+      "tamanho_coorte": 5338,
+      "pct_retencao": 0.34
+    },
+    {
+      "safra_inicial": "2017-12",
+      "mes_indice": 4,
+      "clientes_ativos": 14,
+      "tamanho_coorte": 5338,
+      "pct_retencao": 0.26
+    },
+    {
+      "safra_inicial": "2017-12",
+      "mes_indice": 5,
+      "clientes_ativos": 11,
+      "tamanho_coorte": 5338,
+      "pct_retencao": 0.21
+    },
+    {
+      "safra_inicial": "2017-12",
+      "mes_indice": 6,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 5338,
+      "pct_retencao": 0.17
+    },
+    {
+      "safra_inicial": "2017-12",
+      "mes_indice": 7,
+      "clientes_ativos": 1,
+      "tamanho_coorte": 5338,
+      "pct_retencao": 0.02
+    },
+    {
+      "safra_inicial": "2017-12",
+      "mes_indice": 8,
+      "clientes_ativos": 10,
+      "tamanho_coorte": 5338,
+      "pct_retencao": 0.19
+    },
+    {
+      "safra_inicial": "2018-01",
+      "mes_indice": 0,
+      "clientes_ativos": 6843,
+      "tamanho_coorte": 6843,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2018-01",
+      "mes_indice": 1,
+      "clientes_ativos": 23,
+      "tamanho_coorte": 6843,
+      "pct_retencao": 0.34
+    },
+    {
+      "safra_inicial": "2018-01",
+      "mes_indice": 2,
+      "clientes_ativos": 25,
+      "tamanho_coorte": 6843,
+      "pct_retencao": 0.37
+    },
+    {
+      "safra_inicial": "2018-01",
+      "mes_indice": 3,
+      "clientes_ativos": 20,
+      "tamanho_coorte": 6843,
+      "pct_retencao": 0.29
+    },
+    {
+      "safra_inicial": "2018-01",
+      "mes_indice": 4,
+      "clientes_ativos": 20,
+      "tamanho_coorte": 6843,
+      "pct_retencao": 0.29
+    },
+    {
+      "safra_inicial": "2018-01",
+      "mes_indice": 5,
+      "clientes_ativos": 11,
+      "tamanho_coorte": 6843,
+      "pct_retencao": 0.16
+    },
+    {
+      "safra_inicial": "2018-01",
+      "mes_indice": 6,
+      "clientes_ativos": 12,
+      "tamanho_coorte": 6843,
+      "pct_retencao": 0.18
+    },
+    {
+      "safra_inicial": "2018-01",
+      "mes_indice": 7,
+      "clientes_ativos": 16,
+      "tamanho_coorte": 6843,
+      "pct_retencao": 0.23
+    },
+    {
+      "safra_inicial": "2018-02",
+      "mes_indice": 0,
+      "clientes_ativos": 6288,
+      "tamanho_coorte": 6288,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2018-02",
+      "mes_indice": 1,
+      "clientes_ativos": 22,
+      "tamanho_coorte": 6288,
+      "pct_retencao": 0.35
+    },
+    {
+      "safra_inicial": "2018-02",
+      "mes_indice": 2,
+      "clientes_ativos": 25,
+      "tamanho_coorte": 6288,
+      "pct_retencao": 0.4
+    },
+    {
+      "safra_inicial": "2018-02",
+      "mes_indice": 3,
+      "clientes_ativos": 19,
+      "tamanho_coorte": 6288,
+      "pct_retencao": 0.3
+    },
+    {
+      "safra_inicial": "2018-02",
+      "mes_indice": 4,
+      "clientes_ativos": 16,
+      "tamanho_coorte": 6288,
+      "pct_retencao": 0.25
+    },
+    {
+      "safra_inicial": "2018-02",
+      "mes_indice": 5,
+      "clientes_ativos": 14,
+      "tamanho_coorte": 6288,
+      "pct_retencao": 0.22
+    },
+    {
+      "safra_inicial": "2018-02",
+      "mes_indice": 6,
+      "clientes_ativos": 13,
+      "tamanho_coorte": 6288,
+      "pct_retencao": 0.21
+    },
+    {
+      "safra_inicial": "2018-03",
+      "mes_indice": 0,
+      "clientes_ativos": 6775,
+      "tamanho_coorte": 6775,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2018-03",
+      "mes_indice": 1,
+      "clientes_ativos": 27,
+      "tamanho_coorte": 6775,
+      "pct_retencao": 0.4
+    },
+    {
+      "safra_inicial": "2018-03",
+      "mes_indice": 2,
+      "clientes_ativos": 20,
+      "tamanho_coorte": 6775,
+      "pct_retencao": 0.3
+    },
+    {
+      "safra_inicial": "2018-03",
+      "mes_indice": 3,
+      "clientes_ativos": 20,
+      "tamanho_coorte": 6775,
+      "pct_retencao": 0.3
+    },
+    {
+      "safra_inicial": "2018-03",
+      "mes_indice": 4,
+      "clientes_ativos": 8,
+      "tamanho_coorte": 6775,
+      "pct_retencao": 0.12
+    },
+    {
+      "safra_inicial": "2018-03",
+      "mes_indice": 5,
+      "clientes_ativos": 8,
+      "tamanho_coorte": 6775,
+      "pct_retencao": 0.12
+    },
+    {
+      "safra_inicial": "2018-04",
+      "mes_indice": 0,
+      "clientes_ativos": 6582,
+      "tamanho_coorte": 6582,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2018-04",
+      "mes_indice": 1,
+      "clientes_ativos": 39,
+      "tamanho_coorte": 6582,
+      "pct_retencao": 0.59
+    },
+    {
+      "safra_inicial": "2018-04",
+      "mes_indice": 2,
+      "clientes_ativos": 20,
+      "tamanho_coorte": 6582,
+      "pct_retencao": 0.3
+    },
+    {
+      "safra_inicial": "2018-04",
+      "mes_indice": 3,
+      "clientes_ativos": 16,
+      "tamanho_coorte": 6582,
+      "pct_retencao": 0.24
+    },
+    {
+      "safra_inicial": "2018-04",
+      "mes_indice": 4,
+      "clientes_ativos": 9,
+      "tamanho_coorte": 6582,
+      "pct_retencao": 0.14
+    },
+    {
+      "safra_inicial": "2018-05",
+      "mes_indice": 0,
+      "clientes_ativos": 6508,
+      "tamanho_coorte": 6508,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2018-05",
+      "mes_indice": 1,
+      "clientes_ativos": 34,
+      "tamanho_coorte": 6508,
+      "pct_retencao": 0.52
+    },
+    {
+      "safra_inicial": "2018-05",
+      "mes_indice": 2,
+      "clientes_ativos": 17,
+      "tamanho_coorte": 6508,
+      "pct_retencao": 0.26
+    },
+    {
+      "safra_inicial": "2018-05",
+      "mes_indice": 3,
+      "clientes_ativos": 12,
+      "tamanho_coorte": 6508,
+      "pct_retencao": 0.18
+    },
+    {
+      "safra_inicial": "2018-06",
+      "mes_indice": 0,
+      "clientes_ativos": 5879,
+      "tamanho_coorte": 5879,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2018-06",
+      "mes_indice": 1,
+      "clientes_ativos": 25,
+      "tamanho_coorte": 5879,
+      "pct_retencao": 0.43
+    },
+    {
+      "safra_inicial": "2018-06",
+      "mes_indice": 2,
+      "clientes_ativos": 16,
+      "tamanho_coorte": 5879,
+      "pct_retencao": 0.27
+    },
+    {
+      "safra_inicial": "2018-07",
+      "mes_indice": 0,
+      "clientes_ativos": 5949,
+      "tamanho_coorte": 5949,
+      "pct_retencao": 100.0
+    },
+    {
+      "safra_inicial": "2018-07",
+      "mes_indice": 1,
+      "clientes_ativos": 31,
+      "tamanho_coorte": 5949,
+      "pct_retencao": 0.52
+    },
+    {
+      "safra_inicial": "2018-08",
+      "mes_indice": 0,
+      "clientes_ativos": 6144,
+      "tamanho_coorte": 6144,
+      "pct_retencao": 100.0
+    }
+  ]
+};
